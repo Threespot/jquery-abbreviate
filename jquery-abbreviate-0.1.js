@@ -22,7 +22,7 @@
 	 * Version:
 	 *     0.1
 	 */
-	function abbreviate(n, options){
+	$.fn.abbreviate = function(n, options){
 		var settings = $.extend({
 			'text': 'View {#} More Headlines'
 		}, options);
